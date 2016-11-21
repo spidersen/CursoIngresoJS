@@ -2,13 +2,13 @@
 y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	//iniciacion simple de una variable
-	var apellido = "Petersen";
+	var apellido;
 	var nombre;
-	nombre = "Cristian";
-	nombre = prompt("ingrese su nombre", "nn");
-	alert("Mi nombre es: "+ nombre + " y mi apellido es: "+ apellido);
+    apellido="Miranda";
+	nombre="Joaquin";
 
+    nombre=prompt("ingrese su nombre","nn");
+
+	alert("mi nombre es: "+nombre+" y su apellido es: "+apellido);
 }
-
 

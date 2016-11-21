@@ -4,10 +4,8 @@
 */
 function Mostar()
 {
-	var miTexto;
-	miTexto = prompt("por favor ingrese un texto");
-	document.getElementById("elNombre").value = miTexto;
-
+	var mitext;
+	mitexto=prompt("por favor ingrese un texto");
+	document.getElementById("elNombre"). value=mitexto;
 }
-
 

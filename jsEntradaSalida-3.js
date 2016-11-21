@@ -2,9 +2,10 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	var miVariable;
-	miVariable = document.getElementById('elNombre').value;
-	alert (miVariable);
+	var estaEsMiVarable
+	estaEsMiVarable=document.getElementById('elNombre').value;
+	alert(estaEsMiVarable);	
+	
 }
 
 
